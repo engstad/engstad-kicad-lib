@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2SC4250
+D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
+K RF Power Transistor NPN 
+$ENDCMP
+#
+$CMP FX614
+D FX614, Bell 202 Compatible Modem, DIP-16/SO-16
+K Bell Modem
+F contrib/fx614ds.pdf
+$ENDCMP
+#
+$CMP LM3674
+D LM3674 2-MHz, 600-mA Step-Down DC-DC Converter in SOT-23
+$ENDCMP
+#
+$CMP LMR62014
+D LMR62014 Simple Switcher 20Vout, 1.4A Step-Up Voltage Regulator in SOT-23
+$ENDCMP
+#
+$CMP TPS2420
+D 5-A, 20-V Integrated FET Hot-Swap Controller
+$ENDCMP
+#
+$CMP TPS56x200
+D 4.5V to 17V Input, 2A/3A Synchronous Step-Down Voltage Regulator in SOT-23
+$ENDCMP
+#
+#End Doc Library
