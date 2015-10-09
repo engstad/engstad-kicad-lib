@@ -5,10 +5,9 @@ D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN 
 $ENDCMP
 #
-$CMP FX614
-D FX614, Bell 202 Compatible Modem, DIP-16/SO-16
-K Bell Modem
-F contrib/fx614ds.pdf
+$CMP LM25088-1
+D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
+F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
 $ENDCMP
 #
 $CMP LM3674
@@ -19,12 +18,29 @@ $CMP LMR62014
 D LMR62014 Simple Switcher 20Vout, 1.4A Step-Up Voltage Regulator in SOT-23
 $ENDCMP
 #
+$CMP LT3472
+D DC/DC converter for CCD bias
+F regulator/lt3472.pdf
+$ENDCMP
+#
+$CMP SDMMC_Card
+D SDMMC Card Reader
+K CONN SDMMC
+F http://www.alps.com/prod/info/E/HTML/Connector/microSD_Card/SCHD/SCHD3A0100.html
+$ENDCMP
+#
 $CMP TPS2420
 D 5-A, 20-V Integrated FET Hot-Swap Controller
+F http://www.ti.com/lit/ds/symlink/tps2420.pdf
 $ENDCMP
 #
 $CMP TPS56x200
 D 4.5V to 17V Input, 2A/3A Synchronous Step-Down Voltage Regulator in SOT-23
+$ENDCMP
+#
+$CMP TPS63051
+D TPS6305x Single Inductor Buck-Boost With 1-A Switches and Adjustable Soft Start
+F http://www.mouser.com/ds/2/405/tps63050-557571.pdf
 $ENDCMP
 #
 $CMP VEC2607
