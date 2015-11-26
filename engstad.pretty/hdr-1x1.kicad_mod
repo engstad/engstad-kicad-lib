@@ -1,0 +1,16 @@
+(module hdr-1x1 (layer F.Cu) (tedit 564F0122)
+  (descr "PIN HEADER")
+  (tags "PIN HEADER")
+  (attr virtual)
+  (fp_text reference P7 (at 0 -2.2) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.1905)))
+  )
+  (fp_text value PG (at 0 2.3) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.1905)))
+  )
+  (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.CrtYd) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+)
