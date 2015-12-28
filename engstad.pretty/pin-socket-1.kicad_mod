@@ -1,0 +1,16 @@
+(module pin-socket-1 (layer F.Cu) (tedit 567A653D)
+  (descr "Pin socket 2pin")
+  (tags "CONN DEV")
+  (fp_text reference P5 (at 0 -2.159) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value POWER (at 0.254 -3.556) (layer F.SilkS) hide
+    (effects (font (size 1.016 0.889) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIWALTER3DMOD}/walter/pin_strip/pin_socket_2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
