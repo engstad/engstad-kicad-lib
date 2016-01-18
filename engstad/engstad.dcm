@@ -68,4 +68,9 @@ D N-Channel Depleted Mosfet
 K N-Channel Depleted MOSFET
 $ENDCMP
 #
+$CMP stmps2141str
+D STMPS2141STR Power Switch 0.5A Active Low
+K Power Switch
+$ENDCMP
+#
 #End Doc Library
