@@ -5,6 +5,21 @@ D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN 
 $ENDCMP
 #
+$CMP BARREL_JACK
+D DC Barrel Jack - 2 Pins
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP BARREL_JACK_2PIN
+D DC Barrel Jack - 2 Pins
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP BARREL_JACK_2PIN_SM
+D DC Barrel Jack - 2 Pins
+K DC power barrel jack connector
+$ENDCMP
+#
 $CMP LM25088-1
 D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
 F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
