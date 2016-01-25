@@ -68,6 +68,11 @@ D N-Channel Depleted Mosfet
 K N-Channel Depleted MOSFET
 $ENDCMP
 #
+$CMP VEC2616
+D 60V Vds, 3A Id, Dual HEXFET MOSFET
+K Dual HEXFET N-Channel P-Channel MOSFET
+$ENDCMP
+#
 $CMP stmps2141str
 D STMPS2141STR Power Switch 0.5A Active Low
 K Power Switch
