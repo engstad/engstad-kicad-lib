@@ -1,11 +1,13 @@
-(module test-point-smd-5016 (layer F.Cu) (tedit 56C244A7)
-  (fp_text reference REF** (at 0 3.4) (layer F.SilkS)
+(module test-point-smd-5016 (layer F.Cu) (tedit 56C97CFE)
+  (fp_text reference TP1 (at 0 3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value test-point-smd-5016 (at 0 -4.35) (layer F.Fab) hide
+  (fp_text value TST (at 0 -4.35) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_arc (start 0 0) (end -2.4 2.5) (angle 272.3382787) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.4 2.5) (end 2.4 2.5) (layer F.SilkS) (width 0.15))
+  (fp_arc (start 0 0) (end 2.5 -1.75) (angle 69.9) (layer F.SilkS) (width 0.2))
+  (fp_arc (start 0 0) (end -2.5 1.75) (angle 69.9) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.5 1.75) (end 2.5 1.75) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.5 -1.75) (end 2.5 -1.75) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at 0 0) (size 4.7 3.4) (layers F.Cu F.Paste F.Mask))
 )
