@@ -5,6 +5,11 @@ D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN 
 $ENDCMP
 #
+$CMP ADP5052
+D 5-ch quad buck regulator and 200 mA LDO regulator
+K regulator buck LDO
+$ENDCMP
+#
 $CMP BARREL_JACK
 D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
