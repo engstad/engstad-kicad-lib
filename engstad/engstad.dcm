@@ -43,6 +43,12 @@ $CMP LMR62014
 D LMR62014 Simple Switcher 20Vout, 1.4A Step-Up Voltage Regulator in SOT-23
 $ENDCMP
 #
+$CMP LP38798
+D LP38798 High PSRR, Ultra-Low-Noise, 800-mA Linear Voltage Regulator for RF/Analog Circuits
+
+K LDO
+$ENDCMP
+#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
