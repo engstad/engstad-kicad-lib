@@ -20,6 +20,11 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP F
+D Resistor
+K R DEV
+$ENDCMP
+#
 $CMP LM25088-1
 D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
 F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
