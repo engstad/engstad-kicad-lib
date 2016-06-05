@@ -5,6 +5,11 @@ D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN 
 $ENDCMP
 #
+$CMP ADP5052
+D 5-ch quad buck regulator and 200 mA LDO regulator
+K regulator buck LDO
+$ENDCMP
+#
 $CMP BARREL_JACK
 D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
@@ -20,6 +25,16 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP Crystal_SMD
+D Crystal SMD
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
 $CMP LM25088-1
 D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
 F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
@@ -33,6 +48,11 @@ $CMP LMR62014
 D LMR62014 Simple Switcher 20Vout, 1.4A Step-Up Voltage Regulator in SOT-23
 $ENDCMP
 #
+$CMP LP38798
+D LP38798 High PSRR, Ultra-Low-Noise, 800-mA Linear Voltage Regulator for RF/Analog Circuits
+K LDO
+$ENDCMP
+#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
@@ -42,6 +62,11 @@ $CMP SDMMC_Card
 D SDMMC Card Reader
 K CONN SDMMC
 F http://www.alps.com/prod/info/E/HTML/Connector/microSD_Card/SCHD/SCHD3A0100.html
+$ENDCMP
+#
+$CMP Si7232DN
+D Dual N-Channel 20 V (D-S) MOSFET
+K N-Channel Depleted MOSFET
 $ENDCMP
 #
 $CMP TPS2420
