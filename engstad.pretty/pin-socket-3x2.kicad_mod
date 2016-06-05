@@ -1,0 +1,21 @@
+(module pin-socket-3x2 (layer F.Cu) (tedit 5704D6E5)
+  (descr "Pin socket 3x2pin")
+  (tags "CONN DEV")
+  (fp_text reference P3 (at 0 -3.4) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value CONN_02X03 (at 0 -5.08) (layer F.SilkS) hide
+    (effects (font (size 1.016 0.889) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at -2.54 1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at -2.54 -1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 0 1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at 0 -1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole circle (at 2.54 1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole circle (at 2.54 -1.27) (size 1.524 1.524) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIWALTER3DMOD}/walter/pin_strip/pin_socket_3x2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
