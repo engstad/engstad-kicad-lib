@@ -53,6 +53,12 @@ D LP38798 High PSRR, Ultra-Low-Noise, 800-mA Linear Voltage Regulator for RF/Ana
 K LDO
 $ENDCMP
 #
+$CMP LP5907MFX
+D LP5907 Ultralow-Noise, 250-mA Linear Regulator for RF and Analog Circuits
+K REGULATOR LDO 1.5V 1.8V 2.5V 3.3V 5V
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
