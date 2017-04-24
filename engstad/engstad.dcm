@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 2SC4250
 D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
-K RF Power Transistor NPN 
+K RF Power Transistor NPN
 $ENDCMP
 #
 $CMP ADP5052
@@ -25,11 +25,6 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
-$CMP F
-D Resistor
-K R DEV
-$ENDCMP
-#
 $CMP Crystal_SMD
 D Crystal SMD
 K Quartz, Resonator, Ceramic, Filter
@@ -38,6 +33,11 @@ $ENDCMP
 $CMP Crystal_Small
 D Two pin crystal
 K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP F
+D Resistor
+K R DEV
 $ENDCMP
 #
 $CMP LM25088-1
