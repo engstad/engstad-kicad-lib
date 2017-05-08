@@ -25,6 +25,11 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP F
+D Resistor
+K R DEV
+$ENDCMP
+#
 $CMP Crystal_SMD
 D Crystal SMD
 K Quartz, Resonator, Ceramic, Filter
