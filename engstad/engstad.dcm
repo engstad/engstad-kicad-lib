@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V8A
+D Power symbol creates a global label with name "+1V8"
+K power-flag
+$ENDCMP
+#
 $CMP 2SC4250
 D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN
@@ -25,6 +30,10 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP CYPD3177-24LQXQT
+F https://www.cypress.com/file/460416/download
+$ENDCMP
+#
 $CMP Crystal_SMD
 D Crystal SMD
 K Quartz, Resonator, Ceramic, Filter
@@ -38,6 +47,12 @@ $ENDCMP
 $CMP F
 D Resistor
 K R DEV
+$ENDCMP
+#
+$CMP IRF9358PBF
+D -9.2A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.016R, SO-8
+K HexFET Power MOSFET P-MOS
+F https://datasheet.octopart.com/IRF9358PBF-Infineon-datasheet-10032477.pdf
 $ENDCMP
 #
 $CMP LM25088-1
@@ -109,8 +124,12 @@ D 60V Vds, 3A Id, Dual HEXFET MOSFET
 K Dual HEXFET N-Channel P-Channel MOSFET
 $ENDCMP
 #
+$CMP XC2C32A-VQ44
+F https://www.xilinx.com/support/documentation/data_sheets/ds310.pdf
+$ENDCMP
+#
 $CMP XC9572XL-VQ44
-D XC9572XL High Performance CPLD 
+D XC9572XL High Performance CPLD
 $ENDCMP
 #
 $CMP stmps2141str
