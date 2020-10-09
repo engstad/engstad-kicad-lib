@@ -1,8 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V8A
+D Power symbol creates a global label with name "+1V8"
+K power-flag
+$ENDCMP
+#
 $CMP 2SC4250
 D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN
+$ENDCMP
+#
+$CMP 74AUC2G08
+D Dual AND Gate, Low-Voltage CMOS
+K Dual Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC2G32
+D Dual OR Gate, Low-Voltage CMOS
+K Dual Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC08
+D Dual AND Gate, Low-Voltage CMOS
+K Dual Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC32
+D Dual OR Gate, Low-Voltage CMOS
+K Dual Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP ADP5052
@@ -27,6 +56,10 @@ $ENDCMP
 #
 $CMP CYPD3177-24LQXQT
 F https://www.cypress.com/file/460416/download
+$ENDCMP
+#
+$CMP CYUSB301X
+F https://www.cypress.com/file/140296/download
 $ENDCMP
 #
 $CMP Crystal_SMD
@@ -88,6 +121,10 @@ $ENDCMP
 $CMP Si7232DN
 D Dual N-Channel 20 V (D-S) MOSFET
 K N-Channel Depleted MOSFET
+$ENDCMP
+#
+$CMP TMUXHS4212
+F https://www.ti.com/lit/gpn/tmuxhs4212
 $ENDCMP
 #
 $CMP TPS2420
