@@ -54,6 +54,12 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP BSS138BKS
+D Dual N-Channel 60V 320mA N-channel Trench MOSFET
+K N-Channel Trench MOSFET
+F https://assets.nexperia.com/documents/data-sheet/BSS138BKS.pdf
+$ENDCMP
+#
 $CMP CYPD3177-24LQXQT
 F https://www.cypress.com/file/460416/download
 $ENDCMP
