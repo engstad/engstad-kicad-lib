@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+1V8"
 K power-flag
 $ENDCMP
 #
+$CMP -7V
+D Power symbol creates a global label with name "-7V"
+K power-flag
+$ENDCMP
+#
 $CMP 2SC4250
 D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
 K RF Power Transistor NPN
@@ -32,6 +37,10 @@ $CMP 74LVC32
 D Dual OR Gate, Low-Voltage CMOS
 K Dual Gate OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP ADA4800
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4800.pdf
 $ENDCMP
 #
 $CMP ADP5052
@@ -102,9 +111,15 @@ $CMP LMR62014
 D LMR62014 Simple Switcher 20Vout, 1.4A Step-Up Voltage Regulator in SOT-23
 $ENDCMP
 #
+$CMP LMZ10500
+D LMZ10500 650-mA Nano Module With 5.5-V Maximum Input Voltage
+F https://www.ti.com/lit/ds/symlink/lmz10500.pdf
+$ENDCMP
+#
 $CMP LP38798
 D LP38798 High PSRR, Ultra-Low-Noise, 800-mA Linear Voltage Regulator for RF/Analog Circuits
 K LDO
+F https://www.ti.com/lit/gpn/lp38798
 $ENDCMP
 #
 $CMP LP5907MFX
@@ -113,15 +128,34 @@ K REGULATOR LDO 1.5V 1.8V 2.5V 3.3V 5V
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
 $ENDCMP
 #
+$CMP LT3042
+D 20V, 200mA, Ultralow Noise, Ultrahigh PSRR RF Linear RegulatorUltrahigh PSRR RF Linear Regulator
+K Ultrahigh PSRR RF Linear Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf
+$ENDCMP
+#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
+$ENDCMP
+#
+$CMP LT3487
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3487f.pdf
+$ENDCMP
+#
+$CMP RT9069-C0GB
+D 12V fixed output, 36V, 2uA IQ, Peak 200mA Low Dropout Voltage Linear Regulator in SOT-23-5Regulator
+F https://www.richtek.com/assets/product_file/RT9069/DS9069-09.pdf
 $ENDCMP
 #
 $CMP SDMMC_Card
 D SDMMC Card Reader
 K CONN SDMMC
 F http://www.alps.com/prod/info/E/HTML/Connector/microSD_Card/SCHD/SCHD3A0100.html
+$ENDCMP
+#
+$CMP SN74LV4T125
+F https://www.ti.com/lit/ds/symlink/sn74lv4t125.pdf
 $ENDCMP
 #
 $CMP Si7232DN
@@ -140,11 +174,22 @@ $ENDCMP
 #
 $CMP TPS56x200
 D 4.5V to 17V Input, 2A/3A Synchronous Step-Down Voltage Regulator in SOT-23
+F https://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
 $CMP TPS63051
 D TPS6305x Single Inductor Buck-Boost With 1-A Switches and Adjustable Soft Start
 F http://www.mouser.com/ds/2/405/tps63050-557571.pdf
+$ENDCMP
+#
+$CMP TPS7A3401
+D TPS7A34, –20-V, –200-mA, Low-Noise Negative Voltage Regulator
+K Negative, LDO
+F https://www.ti.com/lit/ds/symlink/tps7a3401.pdf
+$ENDCMP
+#
+$CMP TPS7A4901
+D TPS7A39, 36-V, 150-mA, Ultralow-Noise, Positive Linear Regulator
 $ENDCMP
 #
 $CMP VEC2607
