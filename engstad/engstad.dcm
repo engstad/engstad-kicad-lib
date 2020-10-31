@@ -5,7 +5,7 @@ D Power symbol creates a global label with name "+1V8"
 K power-flag
 $ENDCMP
 #
-$CMP -7V
+$CMP -7V0A
 D Power symbol creates a global label with name "-7V"
 K power-flag
 $ENDCMP
@@ -141,6 +141,10 @@ $ENDCMP
 #
 $CMP LT3487
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3487f.pdf
+$ENDCMP
+#
+$CMP LV5609LP
+F https://www.onsemi.com/pub/Collateral/LV5609LP-D.PDF
 $ENDCMP
 #
 $CMP RT9069-C0GB
