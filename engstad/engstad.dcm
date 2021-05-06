@@ -27,15 +27,27 @@ K Dual Gate OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AUC2G32_copy
+D Dual OR Gate, Low-Voltage CMOS
+K Dual Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC08
-D Dual AND Gate, Low-Voltage CMOS
-K Dual Gate AND LVC CMOS
+D Quad AND Gate, Low-Voltage CMOS
+K Quad Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC32
-D Dual OR Gate, Low-Voltage CMOS
-K Dual Gate OR LVC CMOS
+D Quas OR Gate, Low-Voltage CMOS
+K Quad Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC86
+D Quad XOR Gate, Low-Voltage CMOS
+K Quad Gate XOR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -63,6 +75,16 @@ D DC Barrel Jack - 2 Pins
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP BQ25302
+D Standalone 1-Cell 2.0-A Buck Battery Charger
+F https://www.ti.com/lit/ds/symlink/bq25302.pdf?ts=1619506583951&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP BQ25306
+D Standalone 17-V, 3.0-A 1-2 Cell Buck Battery Charger
+F https://www.ti.com/lit/ds/symlink/bq25306.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1619477817280&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
 $CMP BSS138BKS
 D Dual N-Channel 60V 320mA N-channel Trench MOSFET
 K N-Channel Trench MOSFET
@@ -88,8 +110,8 @@ K Quartz, Resonator, Ceramic, Filter
 $ENDCMP
 #
 $CMP F
-D Resistor
-K R DEV
+D Fuse
+K Fuse
 $ENDCMP
 #
 $CMP IRF9358PBF
