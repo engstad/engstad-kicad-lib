@@ -120,6 +120,12 @@ K HexFET Power MOSFET P-MOS
 F https://datasheet.octopart.com/IRF9358PBF-Infineon-datasheet-10032477.pdf
 $ENDCMP
 #
+$CMP IS25LP06D-xB
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
+K SPI DSPI QSPI NOR 256Mbit 1.8V
+F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
+$ENDCMP
+#
 $CMP LM25088-1
 D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
 F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
@@ -175,6 +181,12 @@ F https://www.richtek.com/assets/product_file/RT9069/DS9069-09.pdf
 $ENDCMP
 #
 $CMP SDMMC_Card
+D SDMMC Card Reader
+K CONN SDMMC
+F http://www.alps.com/prod/info/E/HTML/Connector/microSD_Card/SCHD/SCHD3A0100.html
+$ENDCMP
+#
+$CMP SDMMC_Card_W_Det
 D SDMMC Card Reader
 K CONN SDMMC
 F http://www.alps.com/prod/info/E/HTML/Connector/microSD_Card/SCHD/SCHD3A0100.html
