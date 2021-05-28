@@ -126,6 +126,12 @@ K SPI DSPI QSPI NOR 256Mbit 1.8V
 F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
 $ENDCMP
 #
+$CMP JST_Terminal_01x02
+D JST terminal, single row, 01x02
+K screw terminal
+F ~
+$ENDCMP
+#
 $CMP LM25088-1
 D LM25088-1 Wide Input Range Non-Synchronous Buck Converter
 F http://www.ti.com/lit/ds/snvs609j/snvs609j.pdf
@@ -194,6 +200,10 @@ $ENDCMP
 #
 $CMP SN74LV4T125
 F https://www.ti.com/lit/ds/symlink/sn74lv4t125.pdf
+$ENDCMP
+#
+$CMP STM32L562xx-LQFP48
+F https://www.st.com/resource/en/datasheet/stm32l562ve.pdf
 $ENDCMP
 #
 $CMP Si7232DN
