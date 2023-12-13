@@ -66,4 +66,9 @@
       )
     )
   )
+  (model "/Users/pengstad/Private/Design/engstad-kicad-lib/engstad.3dshapes/1051620001.stp"
+    (offset (xyz 0 0.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
